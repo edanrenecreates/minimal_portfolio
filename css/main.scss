@@ -1,0 +1,79 @@
+$blue-color: #4BBCD4;
+$dark-color: #4b4b4b;
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: transparent !important;
+
+  #navbarSupportedContent ul li a {
+    color: $dark-color;
+    font-weight: 100;
+    text-transform: capitalize;
+
+  &:hover {
+    color: $blue-color;
+    text-decoration: underline;
+    }
+  }
+}
+
+nav .navbar-brand img {
+  width: 150px;
+}
+
+.hero-wrapper {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $blue-color;
+    font-size: 4rem;
+    font-weight: 600;
+
+    span {
+      font-weight: 100;
+    }
+
+    i {
+      font-size: 3.2rem;
+      margin-top: 6px;
+    }
+  }
+
+  h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color:$dark-color;
+    margin-top: -15px;
+    font-size: 2rem;
+    color: $dark-color;
+
+  span {
+    color: $blue-color;
+    font-weight: 600;
+    text-align: center;
+    }
+  }
+
+  button {
+    border-radius: 20px;
+  }
+}
